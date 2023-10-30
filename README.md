@@ -248,6 +248,8 @@ export default function Header({ filters, filter, onFilterChange }) {
 }
 ```
 
+<br/>
+
 `<TodoList />` 컴포넌트에서는 리스트를 필터링하여 해당하는 요소만 화면에 보여줍니다. `getFilteredItem()` 함수를 만들어 기존 todos와 현재 filter를 전달하고 필터링 된 아이템만 받아옵니다. filtered 배열을 `map()`하여 필터링된 아이템만 렌더링 합니다.
 
 ```jsx
